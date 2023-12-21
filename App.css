@@ -1,0 +1,58 @@
+.nav{
+  display: flex;
+  justify-content: center;
+}
+
+.ul_nav {
+  display: flex;
+  list-style-type: none;
+  padding: 5px;
+  color: rgb(252, 253, 255);
+  gap: 24px;
+}
+.skills,
+.projects,
+.contacts{
+  border: 1px solid rgb(70, 61, 224);
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.intro{
+  display: grid;
+  place-items: center ;
+  font-family: allan;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+.HW {
+  font-size: 57px;
+  display: flex;
+}
+img {
+  width: 75px;
+  height: 75px;
+  border: 10px;
+  border-radius: 90px;
+}
+
+.desc {
+  display: flex ;
+  justify-content: center;
+  font-family: 'Allan', serif;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+background: hsla(210, 90%, 80%, 1);
+
+background: linear-gradient(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9fccfa", endColorstr="#0974f1", GradientType=1 );
+}
+
