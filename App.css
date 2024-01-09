@@ -1,6 +1,7 @@
 .nav{
   display: flex;
   justify-content: center;
+
 }
 
 .ul_nav {
@@ -10,12 +11,14 @@
   color: rgb(252, 253, 255);
   gap: 24px;
 }
-.skills,
+
+.skillsnav,
 .projects,
 .contacts{
   border: 1px solid rgb(70, 61, 224);
   border-radius: 15px;
   padding: 15px;
+
 }
 
 .intro{
@@ -25,34 +28,84 @@
   display: flex;
   gap: 25px;
   justify-content: center;
+
 }
 .HW {
-  font-size: 57px;
+  font-size: 127px;
   display: flex;
+  color: beige;
 }
 img {
-  width: 75px;
-  height: 75px;
+  width: 195px;
+  height: 195px;
   border: 10px;
   border-radius: 90px;
 }
 
+  
 .desc {
   display: flex ;
   justify-content: center;
   font-family: 'Allan', serif;
   font-family: 'Roboto Condensed', sans-serif;
+  color: rgb(255, 255, 255);
 }
 
-body {
-background: hsla(210, 90%, 80%, 1);
-
-background: linear-gradient(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%);
-
-background: -moz-linear-gradient(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%);
-
-background: -webkit-linear-gradient(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%);
-
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9fccfa", endColorstr="#0974f1", GradientType=1 );
+body  {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
+.aboutMeButton {
+  min-width: 150px;
+  height: 60px;
+  color: #6e8ff4;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #a8c2ef;
+  overflow: hidden;
+  border: 2px solid #4433ff;
+  color: #4433ff;
+}
+.aboutMeButton:hover {
+  color: #fff;
+}
+.aboutMeButton:hover:after {
+  height: 100%;
+}
+.aboutMeButton:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 100%;
+  background: #4433ff;
+}
+
+.aboutmeContainer {
+display: flex;
+justify-content: center;
+margin-top: 100px;
+}
+
+.navskills {
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.player {
+  width: 300px;
+  height: 350px;
+}
