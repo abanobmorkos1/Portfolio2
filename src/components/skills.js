@@ -10,24 +10,24 @@ function App() {
     width: 400,
     height: 200,
   };
-  return (
-    // <PieChart
-    //   series={[
-    //     {
-    //       arcLabel: (item) => `${item.label} (${item.value})`,
-    //       arcLabelMinAngle: 45,
-    //       data,
-    //     },
-    //   ]}
-    //   sx={{
-    //     [`& .${pieArcLabelClasses.root}`]: {
-    //       fill: 'white',
-    //       fontWeight: 'bold',
-    //     },
-    //   }}
-    //   {...size}
-    // />
-  );
+  // return (
+  //   // <PieChart
+  //   //   series={[
+  //   //     {
+  //   //       arcLabel: (item) => `${item.label} (${item.value})`,
+  //   //       arcLabelMinAngle: 45,
+  //   //       data,
+  //   //     },
+  //   //   ]}
+  //   //   sx={{
+  //   //     [`& .${pieArcLabelClasses.root}`]: {
+  //   //       fill: 'white',
+  //   //       fontWeight: 'bold',
+  //   //     },
+  //   //   }}
+  //   //   {...size}
+  //   // />
+  // );
 }
 
 export default App;
