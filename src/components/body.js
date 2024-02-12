@@ -31,7 +31,7 @@ import { Player } from '@lottiefiles/react-lottie-player';
           // Add dependencies to the dependency array
           }, [wordIndex, isDeleting, text]);
         return <><div className="intro">
-        <h1 className='HW'>Hello, World!</h1>
+        <h1 styles={{justifyContent:"center"}}className='HW'>Hello, World!</h1>
         <img src="https://media.licdn.com/dms/image/D4E03AQEhNGnTmIHRfg/profile-displayphoto-shrink_800_800/0/1696491861573?e=1708560000&v=beta&t=s8v5xTRsSD6KWtOSdtpp07nbOZS1vxgwdGMtPM65qLI"/>
         </div> 
          <h1 className="desc"><>I am Abe a {text}</></h1>
